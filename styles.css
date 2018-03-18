@@ -1,0 +1,299 @@
+.container {
+   
+	margin: 0 auto;
+	position: relative;
+	
+	 max-width: 80%;
+	 
+}
+
+.textContainer
+{
+	 position: relative;
+	 padding: 5px;
+	 text-align: center;
+}	
+
+.textCol
+{
+	 position: relative;
+	 width: 180px;
+	 height: 400px;
+	 padding: 5px;
+	 float: left;
+	 
+}	
+
+
+footer
+{
+	position: relative;
+	
+	height: 50px;
+    width: 75%;
+
+	background-color: transparent;
+     
+	padding: 5px;
+	float: top;
+	margin: 0 auto;
+	
+	text-align: center;
+	color: brown;
+	size: 20;
+}		
+
+.leftBlock
+{
+	position: relative;
+	
+	
+    width: 67%;
+    height: 1000px;
+    
+	background-color: white;
+    float: left;
+	padding: 5px;
+
+}
+
+.rightBlock
+{
+	position: relative;
+	
+	
+    width: 27%;
+    height: 1000px;
+    
+	background-color: white;
+    float: right;
+	padding: 5px;
+
+}
+
+.left{
+	float: left;
+	position: relative;
+}
+
+
+
+#gradient1 {
+    height: 200px;
+    background: #990000; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, #990000, #650000); /* Standard syntax (must be last) */
+}
+
+#gradientBody {
+    height: 1400px;
+    background: #F0EFE1; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, #F6F3F2, #F2DCB6); /* Standard syntax (must be last) */
+}
+
+#gradientFooter {
+    height: 400px;
+    background: #727272; /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom, #6F6F6F, #444444); /* Standard syntax (must be last) */
+}
+
+
+.gallery
+{
+    width: 100%;
+    height: 100%;
+    
+    
+    position: absolute;
+
+    top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+  
+  z-index: 120;
+}
+
+.center
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+
+    background-color: transparent;
+    position: relative;
+
+	 z-index: 120;
+}	
+
+.bodyContainer
+{
+	
+	  position: relative;
+	  width: 1000px;
+	  height: 500px;
+	  background-color: transparent;
+	  top: -40px;
+	  margin: auto;
+	
+	  z-index: 120;
+}
+
+
+.topHeader{
+	 float: left;
+	  position: relative;
+	  width: 100%;
+	  height: 230px;
+	  background-color: #880000;
+	  z-index: 100;
+	  top: 20px;
+}	
+
+.topBar{
+	
+	  float: left;
+	  position: fixed;
+	  width: 100%;
+	  
+	  background-color: #212121;
+	  left: 0px;
+	  
+	  z-index: 1000;
+}
+
+
+.topMenu {
+	  float: left;
+	  position: relative;
+	  background-color: transparent;
+}
+
+
+.topMenu ul{
+  list-style: none;
+   padding: 0px;
+   text-align: left;
+   background-color: transparent;
+}	
+
+.topMenu a{
+   color: black;
+   padding: 0px;
+   text-decoration: none;   
+   background-color: transparent;
+   color: white;
+   
+}	
+
+.topMenu li{
+	display: inline-block;
+	margin-left: 12px;
+	background-color: transparent;
+	
+}
+
+
+
+
+
+
+.clear {
+	clear: both;
+}
+/*
+hr{
+	display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #964F55;
+}*/
+
+h1, h2, h3 {
+	color: #7D5BA6;
+}
+
+h1{
+	font-size: 26px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+
+
+
+.aside-btn{
+	color: orange;
+}
+
+.aside-hr{
+	color: green;
+}
+
+.pinkTitle{
+	color: pink;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+body{
+padding:0px;
+margin:0 0 100px;
+background-color: #F0EFE1;
+
+   max-width: 100%;
+    overflow-x: hidden;
+}
+/*
+	white: #FFFFFF
+	purple: #7D5BA6
+	black: #2C3E50
+	red: #FC6471
+*/
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    overflow:hidden;
+    background-color: grey;
+    margin: 0;
+}	
+	
+.subfooter
+{
+	position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    height: 50px;
+    width: 100%;
+     overflow:hidden;
+    background-color: black;
+    
+    margin: auto;
+
+
+}		
+	
+	
