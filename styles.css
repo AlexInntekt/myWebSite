@@ -25,27 +25,47 @@
 }	
 
 
-footer
+
+
+.blocksContainer
 {
-	position: relative;
 	
-	height: 50px;
-    width: 75%;
-
-	background-color: transparent;
-     
-	padding: 5px;
-	float: top;
-	margin: 0 auto;
 	
-	text-align: center;
-	color: brown;
-	size: 20;
-}		
+	
+	 width: 100%;
+	 height: 550px;
+	 background-color: transparent;
+	
+	 position: relative;
+	 padding: 10px;
+	 text-align: center;
+	 
+
+	  max-width: 100%;
+}
+
+.column
+{
+	float: left;
+	 width: 25%;
+	 height: 90%;
+	 background-color: transparent;
+	 padding: 5px;
+	 
+	  max-width: 100%;
+	  
+	  border-right: 1px solid #C3BFB8;
+	
+     text-overflow: ellipsis; 
+     white-space: wrap;
+overflow: hidden;
+}	
 
 
 
-.left{
+
+.left
+{
 	float: left;
 	position: relative;
 }
@@ -59,7 +79,7 @@ footer
 }
 
 #gradientBody {
-    height: 1400px;
+    height: 1900px;
     background: #F0EFE1; /* For browsers that do not support gradients */
     background: linear-gradient(to bottom, #F6F3F2, #F2DCB6); /* Standard syntax (must be last) */
 }
