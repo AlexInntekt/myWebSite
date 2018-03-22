@@ -3,7 +3,7 @@
 	margin: 0 auto;
 	position: relative;
 	
-	
+	max-width: 80%;
 	 
 }
 
@@ -136,7 +136,7 @@ overflow: hidden;
 	  top: -40px;
 	  margin: auto;
 	
-	   max-width: 80%;
+	   max-width: 100%;
 	  z-index: 120;
 }
 
