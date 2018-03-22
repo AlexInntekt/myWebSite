@@ -55,6 +55,7 @@
 	  max-width: 100%;
 	  
 	  border-right: 1px solid #C3BFB8;
+	  
 	
      text-overflow: ellipsis; 
      white-space: wrap;
@@ -75,11 +76,11 @@ overflow: hidden;
 #gradient1 {
     height: 200px;
     background: #990000; /* For browsers that do not support gradients */
-    background: linear-gradient(to bottom, #990000, #650000); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom, #AD0000, #590000); /* Standard syntax (must be last) */
 }
 
 #gradientBody {
-    height: 1900px;
+    height: 1700px;
     background: #F0EFE1; /* For browsers that do not support gradients */
     background: linear-gradient(to bottom, #F6F3F2, #F2DCB6); /* Standard syntax (must be last) */
 }
@@ -87,7 +88,7 @@ overflow: hidden;
 #gradientFooter {
     height: 400px;
     background: #727272; /* For browsers that do not support gradients */
-    background: linear-gradient(to bottom, #6F6F6F, #444444); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom, #8C8C8C, #373737); /* Standard syntax (must be last) */
 }
 
 
@@ -293,4 +294,40 @@ footer{
     margin: auto;
 }		
 	
+	
+ul
+{
+  
+  margin-left: 0;
+  padding-left: 10px;
+  list-style-type: square;
+  
+}	
+
+ul.a {list-style-type: circle;}
+ul.b {list-style-type: square;}
+ol.c {list-style-type: upper-roman;}
+ol.d {list-style-type: lower-alpha;}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: #F4F4F4;
+}
+/**/
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color:#F4F4F4;
+}
+
+
+			
 	
