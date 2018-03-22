@@ -1,11 +1,52 @@
 .container {
    
 	margin: 0 auto;
-	position: relative;
 	
 	max-width: 80%;
-	 
+	
+	z-index: 120; 
+	position: relative;
+	
+	
 }
+
+.bodyContainer
+{
+	
+	  
+	  width: 1000px;
+	  height: 500px;
+	  background-color: transparent;
+	  top: -40px;
+	  margin: auto;
+	 
+	  border-style: solid blue;
+       border-width: 20px;
+	 
+	   max-width: 100%;
+	   
+	   z-index: 120;
+	   position: relative;
+	   
+	  
+}
+
+
+.center
+{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+
+    background-color: transparent;
+   
+	  z-index: 120;
+	  position: relative;
+	  
+	
+}	
+
+
 
 .textContainer
 {
@@ -80,7 +121,7 @@ overflow: hidden;
 }
 
 #gradientBody {
-    height: 1700px;
+    height: 1600px;
     background: #F0EFE1; /* For browsers that do not support gradients */
     background: linear-gradient(to bottom, #F6F3F2, #F2DCB6); /* Standard syntax (must be last) */
 }
@@ -110,35 +151,7 @@ overflow: hidden;
   z-index: 120;
 }
 
-.center
-{
-    width: 100%;
-    height: 100%;
-    padding: 0px;
 
-    background-color: transparent;
-    position: relative;
-
-	 z-index: 120;
-	 
-	 
-    
-
-}	
-
-.bodyContainer
-{
-	
-	  position: relative;
-	  width: 1000px;
-	  height: 500px;
-	  background-color: transparent;
-	  top: -40px;
-	  margin: auto;
-	
-	   max-width: 100%;
-	  z-index: 120;
-}
 
 
 .topHeader{
@@ -160,7 +173,7 @@ overflow: hidden;
 	  background-color: #212121;
 	  left: 0px;
 	  
-	  z-index: 1000;
+	  z-index: 130;
 }
 
 
@@ -327,6 +340,7 @@ a:hover {
 a:active {
     color:#F4F4F4;
 }
+
 
 
 			
