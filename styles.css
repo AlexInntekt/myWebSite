@@ -12,12 +12,10 @@
 
 .bodyContainer
 {
-	
-	  
-	  width: 1000px;
+	  width: 100%;
 	  height: 500px;
 	  background-color: transparent;
-	  top: -40px;
+	  top: -90px;
 	  margin: auto;
 	 
 	  border-style: solid blue;
@@ -42,10 +40,18 @@
    
 	  z-index: 120;
 	  position: relative;
-	  
-	
 }	
 
+.middle
+{
+  margin:  auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: table;
+}
 
 
 .textContainer
@@ -127,7 +133,7 @@ overflow: hidden;
 }
 
 #gradientFooter {
-    height: 400px;
+    height: 300px;
     background: #727272; /* For browsers that do not support gradients */
     background: linear-gradient(to bottom, #8C8C8C, #373737); /* Standard syntax (must be last) */
 }
@@ -299,7 +305,7 @@ footer{
     left: 0;
     bottom: 0;
     
-    height: 50px;
+    height: 30px;
     width: 100%;
      overflow:hidden;
     background-color: black;
@@ -323,7 +329,7 @@ ol.c {list-style-type: upper-roman;}
 ol.d {list-style-type: lower-alpha;}
 
 a:link {
-    color: red;
+    color: white;
 }
 
 /* visited link */
@@ -333,13 +339,13 @@ a:visited {
 /**/
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: white;
 }
 
 /* selected link */
-a:active {
+/* a:active {
     color:#F4F4F4;
-}
+} */
 
 
 
