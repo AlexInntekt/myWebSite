@@ -376,4 +376,27 @@ input[type=text]:focus {
     width: 25%;
 }
 			
+.vertical-menu {
+    width: 100%;
+}
+
+.vertical-menu a {
+	border-top: 1px solid #646464;
+    background-color: #454545;
+    color: white;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+    color: black;
+    font-weight: bold;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}			
 	
